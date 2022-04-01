@@ -1,0 +1,123 @@
+/* ====================================
+      タグ設定
+   ==================================== */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2 {
+
+}
+
+a {
+	padding-right: 20px;
+}
+
+
+h4 {
+	padding: 10px 0;
+}
+
+form {
+	margin-bottom: 15px;
+}
+
+input[type="submit"] {
+	 padding: 1px 6px;
+}
+
+table {
+	margin-bottom: 50px;
+}
+
+
+
+
+/* ====================================
+      ページ全体設定
+   ==================================== */
+/* ブラウザ全体の画面設定 */
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+/* ヘッダー */
+header {
+	padding-top: 10px;
+	border-bottom: 5px solid #0000ff;
+	text-align: center;
+}
+
+
+/* フッター */
+footer {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	border-top: 2px solid #0000ff;
+}
+
+
+
+
+
+/* ページタイトル */
+#page_title {
+	text-align: center;
+}
+
+
+/* ====================================
+      テーブル設定
+   ==================================== */
+/*テーブルの色設定*/
+
+
+.login-table {
+	margin: 0 auto;
+}
+
+.login-table td{
+	padding: 20px 0;
+}
+
+.input-table {
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.detail-table {
+	text-align:left;
+}
+
+
+table th {
+	width: 150px;
+	background-color: #ff8080;
+}
+
+/* 一覧画面用テーブルの設定 */
+.list-table {
+	width: 100%;
+}
+
+/* 詳細情報用テーブルの設定 */
+.detail-table {
+	width: 40%;
+}
+
+.detail-table tr td {
+	background-color: #E0FFFF;
+}
+
+/* 入力フォーム用テーブルの設定 */
+.input-table input[type="text"] {
+	width: 100%;
+}
+
+
